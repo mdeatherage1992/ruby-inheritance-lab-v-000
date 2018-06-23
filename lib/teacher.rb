@@ -11,7 +11,7 @@ class Teacher < User
 end
 
   def teach
-    sample(knowledge_array)
+    sample(knowledge)
   end
 
 
