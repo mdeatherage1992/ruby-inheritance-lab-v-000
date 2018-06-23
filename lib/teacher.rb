@@ -1,3 +1,4 @@
+require "pry"
 require_relative "./user.rb"
 class Teacher < User
   attr_accessor :first_name,:last_name
