@@ -11,7 +11,6 @@ class Teacher < User
 
   def teach
     sample(knowledge_array)
-    binding.pry
   end
 
 
